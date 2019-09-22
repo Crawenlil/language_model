@@ -1,0 +1,13 @@
+dataset_path: data/numbers
+model_path: models/numbers
+
+model: LSTMLanguageModel
+vocab_size: 46
+left_context_len: 9
+embedding_dim: 300
+lstm_num_layers: 2
+hidden_size: 100
+
+n_epochs: 25
+batch_size: 128
+
